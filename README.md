@@ -1,2 +1,3 @@
-# CSS-Basics-and-Layout-Exercise
-Lab exercise on CSS selectors and layout
+# CSS Basics and Layout Exercises
+
+Series of lab exercise on CSS selectors and layout.
