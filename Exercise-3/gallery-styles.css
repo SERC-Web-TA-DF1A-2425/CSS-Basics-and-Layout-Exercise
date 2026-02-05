@@ -1,0 +1,308 @@
+        /* Global Reset and Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #ecf0f1;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        /* Clearfix - Essential! */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Header Styles */
+        .gallery-header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 40px;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            float: left;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .site-title {
+            float: left;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .site-title h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .main-nav {
+            float: right;
+            margin-top: 15px;
+        }
+
+        .main-nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-nav li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .main-nav a {
+            color: white;
+            font-weight: 500;
+            padding: 5px 10px;
+        }
+
+        .main-nav a:hover {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .tagline {
+            clear: both;
+            padding-top: 15px;
+            margin-top: 15px;
+            border-top: 1px solid #34495e;
+            font-size: 14px;
+            color: #bdc3c7;
+        }
+
+        /* Main Container with Three Columns */
+        .gallery-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Left Sidebar */
+        .left-sidebar {
+            float: left;
+            width: 20%;
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            margin-right: 2.5%;
+        }
+
+        .left-sidebar h3 {
+            color: #3498db;
+            margin-bottom: 15px;
+            font-size: 18px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .left-sidebar ul {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        .left-sidebar li {
+            padding: 8px 0;
+            border-bottom: 1px solid #2c3e50;
+        }
+
+        .left-sidebar a {
+            color: white;
+            display: block;
+        }
+
+        .left-sidebar a:hover {
+            color: #3498db;
+            padding-left: 10px;
+            transition: padding-left 0.3s;
+        }
+
+        /* Main Content Area */
+        .main-gallery {
+            float: left;
+            width: 52.5%;
+            background-color: white;
+            padding: 30px;
+            margin-right: 2.5%;
+        }
+
+        .main-gallery h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        .gallery-intro {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        /* Photo Grid */
+        .photo-grid {
+            /* Container for grid items */
+        }
+
+        .photo-card {
+            float: left;
+            width: 30%;
+            margin-right: 3%;
+            margin-bottom: 25px;
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .photo-card:nth-child(3n) {
+            margin-right: 0;
+        }
+
+        .photo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .photo-caption {
+            padding: 15px;
+        }
+
+        .photo-caption h4 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        .photo-caption p {
+            color: #7f8c8d;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+
+        /* Right Sidebar */
+        .right-sidebar {
+            float: right;
+            width: 20%;
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+        }
+
+        .right-sidebar h3 {
+            color: #3498db;
+            margin-bottom: 15px;
+            font-size: 18px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .sidebar-section {
+            margin-bottom: 30px;
+        }
+
+        .sidebar-section p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .social-links {
+            list-style: none;
+        }
+
+        .social-links li {
+            padding: 8px 0;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 14px;
+        }
+
+        .social-links a:hover {
+            color: #3498db;
+        }
+
+        .contact-info {
+            font-size: 14px;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+
+        /* Footer */
+        .gallery-footer {
+            clear: both;
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 40px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .footer-links li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        .footer-links a {
+            color: #bdc3c7;
+            font-size: 14px;
+        }
+
+        .footer-links a:hover {
+            color: #3498db;
+        }
+
+        .copyright {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-top: 15px;
+        }
