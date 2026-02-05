@@ -52,41 +52,41 @@ Before jumping into the independent work, let's set up the basic structure.
 3. Add the following HTML structure inside the `<body>` element:
 
 ```html
-<div id="main-header">
+<header id="main-header">
     <!-- Your navigation will go here -->
-</div>
+</header>
 
-<div id="main-content">
-    <div id="hero">
+<main>
+    <section id="hero">
         <!-- Hero/welcome section -->
-    </div>
+    </section>
 
-    <div id="about">
+    <section id="about">
         <!-- About section -->
-    </div>
+    </section>
 
-    <div id="skills">
+    <section id="skills">
         <!-- Skills section -->
-    </div>
+    </section>
 
-    <div id="projects">
+    <section id="projects">
         <!-- Projects gallery -->
-    </div>
+    </section>
 
-    <div id="contact">
+    <section id="contact">
         <!-- Contact form/info -->
-    </div>
-</div>
+    </section>
+</main>
 
-<div id="main-footer">
+<footer id="main-footer">
     <!-- Footer content -->
-</div>
+</footer>
 ```
 
 **Why this structure?**
-- Using `<div>` elements with descriptive IDs to organize content
+- Uses appropriate HTML elements with descriptive IDs to organize content
 - IDs allow for navigation between sections
-- This structure is common for single-page websites
+- This structure is standard for modern single-page websites
 
 ### Step 2: CSS Setup
 
