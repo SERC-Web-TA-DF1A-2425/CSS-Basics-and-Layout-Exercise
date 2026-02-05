@@ -514,7 +514,7 @@ VS Code has a built-in Source Control panel that makes it easy to stage, commit,
 If you prefer using the terminal:
 
 ```bash
-git add .
+git add exercise1.html styles.css
 git commit -m "Completed Exercise 1 - CSS Basic Selectors"
 git push
 ```

@@ -346,7 +346,7 @@ VS Code has a built-in Source Control panel that makes it easy to stage, commit,
 If you prefer using the terminal:
 
 ```bash
-git add .
+git add exercise0.html
 git commit -m "Completed Exercise 0 - HTML Structure and Basic Elements"
 git push
 ```

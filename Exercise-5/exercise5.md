@@ -606,7 +606,7 @@ VS Code has a built-in Source Control panel that makes it easy to stage, commit,
 If you prefer using the terminal:
 
 ```bash
-git add .
+git add exercise5.html styles.css
 git commit -m "Completed Exercise 5 - Responsive Layouts"
 git push
 ```
