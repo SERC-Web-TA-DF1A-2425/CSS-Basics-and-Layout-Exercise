@@ -570,3 +570,33 @@ These skills are essential for modern web development. Every professional websit
 ---
 
 **Congratulations!** You've completed Exercise 5 on Responsive Layouts. You now have the skills to create websites that work beautifully on any device!
+
+---
+
+## Saving Your Work
+
+After completing this exercise, make sure to save your changes to GitHub:
+
+### Step 1: Stage Your Changes
+```bash
+git add .
+```
+
+### Step 2: Commit Your Changes
+```bash
+git commit -m "Completed Exercise 5 - Responsive Layouts"
+```
+
+### Step 3: Push to GitHub
+```bash
+git push
+```
+
+**Note:** If you're using GitHub Codespaces, you can also use the Source Control panel in VS Code:
+1. Click the Source Control icon in the left sidebar (or press `Ctrl+Shift+G`)
+2. Review your changes
+3. Enter a commit message like "Completed Exercise 5"
+4. Click the checkmark to commit
+5. Click "Sync Changes" or "Push" to upload to GitHub
+
+Your work is now saved and backed up on GitHub! You can continue to the final challenge.

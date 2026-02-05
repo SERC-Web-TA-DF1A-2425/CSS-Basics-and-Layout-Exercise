@@ -613,3 +613,33 @@ If you need help, refer back to these exercises:
 - **Exercise 5**: Responsive design, media queries, mobile-first approach
 
 Good luck with your challenge! 🚀
+
+---
+
+## Saving Your Work
+
+After completing the challenge, make sure to save your changes to GitHub:
+
+### Step 1: Stage Your Changes
+```bash
+git add .
+```
+
+### Step 2: Commit Your Changes
+```bash
+git commit -m "Completed Final Challenge - Portfolio Website"
+```
+
+### Step 3: Push to GitHub
+```bash
+git push
+```
+
+**Note:** If you're using GitHub Codespaces, you can also use the Source Control panel in VS Code:
+1. Click the Source Control icon in the left sidebar (or press `Ctrl+Shift+G`)
+2. Review your changes
+3. Enter a commit message like "Completed Final Challenge"
+4. Click the checkmark to commit
+5. Click "Sync Changes" or "Push" to upload to GitHub
+
+**Congratulations!** You've completed all the CSS Basics and Layout exercises. Your portfolio website is now saved on GitHub, showcasing all the skills you've learned throughout this course!

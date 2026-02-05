@@ -200,3 +200,33 @@ Example:
 2. **Margin collapse**: Vertical margins between adjacent elements collapse to the larger value
 3. **Horizontal overflow**: Elements with width + padding + border + margin exceeding container width will overflow
 4. **Percentage calculations**: When using percentages, remember they're calculated from the parent element's content width
+
+---
+
+## Saving Your Work
+
+After completing this exercise, make sure to save your changes to GitHub:
+
+### Step 1: Stage Your Changes
+```bash
+git add .
+```
+
+### Step 2: Commit Your Changes
+```bash
+git commit -m "Completed Exercise 2 - CSS Box Model"
+```
+
+### Step 3: Push to GitHub
+```bash
+git push
+```
+
+**Note:** If you're using GitHub Codespaces, you can also use the Source Control panel in VS Code:
+1. Click the Source Control icon in the left sidebar (or press `Ctrl+Shift+G`)
+2. Review your changes
+3. Enter a commit message like "Completed Exercise 2"
+4. Click the checkmark to commit
+5. Click "Sync Changes" or "Push" to upload to GitHub
+
+Your work is now saved and backed up on GitHub! You can continue to the next exercise.

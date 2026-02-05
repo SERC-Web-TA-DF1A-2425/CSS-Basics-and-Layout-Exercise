@@ -310,3 +310,33 @@ These are the fundamental building blocks of HTML. In future exercises, you'll l
 - Use meaningful `alt` text for images (helps with accessibility)
 - Test your page in a browser frequently to see your changes
 - Remember: Block elements stack vertically, inline elements flow horizontally
+
+---
+
+## Saving Your Work
+
+After completing this exercise, make sure to save your changes to GitHub:
+
+### Step 1: Stage Your Changes
+```bash
+git add .
+```
+
+### Step 2: Commit Your Changes
+```bash
+git commit -m "Completed Exercise 0 - HTML Structure and Basic Elements"
+```
+
+### Step 3: Push to GitHub
+```bash
+git push
+```
+
+**Note:** If you're using GitHub Codespaces, you can also use the Source Control panel in VS Code:
+1. Click the Source Control icon in the left sidebar (or press `Ctrl+Shift+G`)
+2. Review your changes
+3. Enter a commit message like "Completed Exercise 0"
+4. Click the checkmark to commit
+5. Click "Sync Changes" or "Push" to upload to GitHub
+
+Your work is now saved and backed up on GitHub! You can continue to the next exercise.
