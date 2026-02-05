@@ -1,0 +1,307 @@
+/* ========================================
+   CSS Basics - Sample Solution
+   This is a reference solution demonstrating
+   all the styling concepts from Exercise 1
+   ======================================== */
+
+/* ===== PART 1: BASIC STYLES ===== */
+
+/* Body - Base styles for the entire page */
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #34495e;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3 {
+    color: #555;
+    font-size: 20px;
+}
+
+/* ===== PART 2: TEXT FORMATTING ===== */
+
+.intro {
+    text-align: center;
+    font-style: italic;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Drop cap effect - first letter styling */
+.dropcap::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #3498db;
+}
+
+/* ===== PART 3: LINKS ===== */
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #9b59b6;
+}
+
+/* ===== PART 4: BOXES AND BORDERS ===== */
+
+.box {
+    border: 2px solid #bdc3c7;
+    border-radius: 10px;
+    background-color: #ecf0f1;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add emoji icon before card content */
+.card::before {
+    content: "💡 ";
+}
+
+.highlight {
+    background-color: #fff9c4;
+    border-left: 3px solid #f9a825;
+}
+
+/* ===== PART 5: LIST STYLING ===== */
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+/* Style list items */
+ul li {
+    color: #555;
+}
+
+li:first-child {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+li:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* Descendant selector - paragraphs directly inside .box */
+.box > p {
+    font-weight: bold;
+}
+
+/* ===== PART 6: NAVIGATION MENU ===== */
+
+.nav-menu {
+    list-style-type: none;
+}
+
+.nav-menu li {
+    /* Note: We're not adding display: inline-block here as that's layout */
+}
+
+.nav-menu a {
+    text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* ===== PART 7: INFO BOXES ===== */
+
+.info-box {
+    border: 1px solid #d1d8e0;
+    border-left: 4px solid #4834d4;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== PART 8: MESSAGE TYPES ===== */
+
+.warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffc107;
+    border-left: 4px solid #ff9800;
+    border-radius: 4px;
+}
+
+.warning::before {
+    content: "⚠️ ";
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-left: 4px solid #28a745;
+    border-radius: 4px;
+}
+
+.success::before {
+    content: "✓ ";
+}
+
+.info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+    border-left: 4px solid #17a2b8;
+    border-radius: 4px;
+}
+
+.info::before {
+    content: "ℹ️ ";
+}
+
+/* ===== PART 9: QUOTES ===== */
+
+.quote {
+    font-style: italic;
+    font-size: 18px;
+    color: #555;
+    border-left: 4px solid #3498db;
+}
+
+.quote::before {
+    content: '"';
+    font-size: 2em;
+    color: #3498db;
+}
+
+.quote::after {
+    content: '"';
+    font-size: 2em;
+    color: #3498db;
+}
+
+/* ===== PART 10: CODE STYLING ===== */
+
+code {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #f4f4f4;
+    color: #c7254e;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.code-block {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #f8f8f8;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* ===== PART 11: BUTTONS ===== */
+
+.button {
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+/* ===== PART 12: GALLERY ===== */
+
+.gallery-item {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item:hover {
+    border-color: #3498db;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+
+/* ===== PART 13: FEATURE LIST ===== */
+
+.feature-list {
+    list-style-type: none;
+}
+
+.feature-list li::before {
+    content: "✓ ";
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.feature-list li:first-child {
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.feature-list li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.feature-list li:last-child {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* ===== PART 14: FOOTER ===== */
+
+#footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+}
