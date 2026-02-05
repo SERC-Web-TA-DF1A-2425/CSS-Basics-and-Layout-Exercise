@@ -152,11 +152,8 @@ Control how text appears and aligns.
 **Your task:**
 1. Style the `h1` element:
    - Set `text-align` to `center`
-2. Style elements with class `intro`:
-   - Set `text-align` to `center`
-   - Set `font-style` to `italic`
-3. Style elements with class `uppercase`:
-   - Set `text-transform` to `uppercase`
+2. Style all `p` elements:
+   - Set `text-align` to `left`
 
 ### Step 5: Working with Links
 
@@ -197,13 +194,9 @@ You can also style individual sides:
 - `border-top-left-radius`, `border-top-right-radius`, etc.
 
 **Your task:**
-1. Style elements with class `box`:
-   - Set `border` to `2px solid #bdc3c7`
-   - Set `border-radius` to `10px`
-   - Set `background-color` to `#ecf0f1`
-2. Style elements with class `card`:
-   - Set `border` to `1px solid #ddd`
-   - Set `border-radius` to `8px`
+1. Style all `h2` elements:
+   - Set `border-bottom` to `2px solid #bdc3c7`
+2. Style all `h3` elements:
    - Set `border-left` to `4px solid #3498db`
 
 ### Step 7: Shadows
@@ -223,10 +216,10 @@ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 ```
 
 **Your task:**
-1. Style elements with class `card`:
-   - Set `box-shadow` to `0 2px 8px rgba(0, 0, 0, 0.1)`
-2. Style the `h1` element:
+1. Style the `h1` element:
    - Set `text-shadow` to `2px 2px 4px rgba(0, 0, 0, 0.2)`
+2. Style all `h2` elements:
+   - Set `text-shadow` to `1px 1px 2px rgba(0, 0, 0, 0.1)`
 
 ### Step 8: List Styling
 
@@ -240,10 +233,10 @@ Control how lists appear.
 **Your task:**
 1. Style all `ul` elements:
    - Set `list-style-type` to `square`
-2. Style elements with class `no-bullets`:
-   - Set `list-style-type` to `none`
-3. Style all `ol` elements:
+2. Style all `ol` elements:
    - Set `list-style-type` to `decimal`
+3. Style all `li` elements:
+   - Set `color` to `#555`
 
 ---
 
