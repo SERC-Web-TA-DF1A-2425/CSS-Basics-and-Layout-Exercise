@@ -15,3 +15,9 @@ Learn about the CSS box model, including padding, margin, and borders. Create ba
 
 ### Exercise 3 - CSS Float Layouts
 Master float-based layouts for creating multi-column designs. Includes guided steps and a comprehensive photo gallery challenge with header, footer, sidebars, and main content area.
+
+### Exercise 4 - Flexbox and Grid Layouts
+Learn modern CSS layout systems including Flexbox for one-dimensional layouts and CSS Grid for two-dimensional layouts. Practice creating navigation bars, card layouts, galleries, and complex page structures.
+
+### Exercise 5 - Responsive Layouts
+Master responsive web design techniques using media queries, flexible layouts, and relative units. Build websites that adapt seamlessly to different screen sizes from mobile phones to desktop computers.
