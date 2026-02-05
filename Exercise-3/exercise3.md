@@ -429,36 +429,17 @@ Your page must include:
 
 ### Layout Diagram
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Header                                                      │
-│  ┌─────────┐                        ┌──────────────────┐   │
-│  │  Logo   │                        │   Navigation     │   │
-│  └─────────┘                        └──────────────────┘   │
-│  Tagline or description                                     │
-└─────────────────────────────────────────────────────────────┘
+**Visual Layout Representation:**
 
-┌──────────┐ ┌─────────────────────────────────┐ ┌──────────┐
-│          │ │  Main Content Area              │ │          │
-│   Left   │ │  ┌─────┐ ┌─────┐ ┌─────┐       │ │  Right   │
-│ Sidebar  │ │  │Img 1│ │Img 2│ │Img 3│       │ │ Sidebar  │
-│          │ │  └─────┘ └─────┘ └─────┘       │ │          │
-│ - Cat 1  │ │  ┌─────┐ ┌─────┐ ┌─────┐       │ │ - About  │
-│ - Cat 2  │ │  │Img 4│ │Img 5│ │ img 6│      │ │ - Contact│
-│ - Cat 3  │ │  └─────┘ └─────┘ └─────┘       │ │ - Social │
-│          │ │  ┌─────┐ ┌─────┐ ┌─────┐       │ │          │
-│ Recent:  │ │  │ img 7│ │ img 8│ │ img 9│    │ │          │
-│ - Gal 1  │ │  └─────┘ └─────┘ └─────┘       │ │          │
-│ - Gal 2  │ │  ┌─────┐ ┌─────┐ ┌─────┐       │ │          │
-│          │ │  │img 10│ │img11│ │img12│      │ │          │
-│          │ │  └─────┘ └─────┘ └─────┘       │ │          │
-└──────────┘ └─────────────────────────────────┘ └──────────┘
+This diagram shows the complete layout structure with all sections:
 
-┌─────────────────────────────────────────────────────────────┐
-│  Footer                                                      │
-│  © 2024 Photo Gallery | Privacy | Terms | Contact           │
-└─────────────────────────────────────────────────────────────┘
-```
+![Layout Visual Representation](layout-visual-representation.png)
+
+**Float-Based Implementation:**
+
+This diagram shows how to implement the layout using CSS floats with specific widths and properties:
+
+![Layout Float Implementation](layout-float-implementation.png)
 
 ### Technical Specifications
 
