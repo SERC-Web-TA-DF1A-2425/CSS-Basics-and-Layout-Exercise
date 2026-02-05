@@ -2,6 +2,38 @@
 
 Series of lab exercise on CSS selectors and layout.
 
+## Getting Started
+
+There are two ways to work on these exercises:
+
+### Option 1: Use GitHub Codespaces (Recommended for beginners)
+
+1. Click the green **Code** button at the top of this repository
+2. Select the **Codespaces** tab
+3. Click **Create codespace on main** (or your branch)
+4. Wait for the codespace to load - you'll have a full development environment in your browser
+5. Start working on the exercises!
+
+**Benefits:** No installation required, works from any computer with a browser, pre-configured environment.
+
+### Option 2: Clone Locally
+
+If you prefer to work on your local machine:
+
+1. Make sure you have Git installed on your computer
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/SERC-Web-TA-DF1A-2425/CSS-Basics-and-Layout-Exercise.git
+   ```
+3. Navigate to the repository folder:
+   ```bash
+   cd CSS-Basics-and-Layout-Exercise
+   ```
+4. Open the folder in your preferred code editor (VS Code, Sublime Text, etc.)
+5. Start working on the exercises!
+
+**Benefits:** Works offline, use your favorite local tools, no internet dependency after cloning.
+
 ## Exercises
 
 ### Exercise 0 - HTML Structure and Basic Elements

@@ -200,3 +200,45 @@ Example:
 2. **Margin collapse**: Vertical margins between adjacent elements collapse to the larger value
 3. **Horizontal overflow**: Elements with width + padding + border + margin exceeding container width will overflow
 4. **Percentage calculations**: When using percentages, remember they're calculated from the parent element's content width
+
+---
+
+## Saving Your Work
+
+After completing this exercise, make sure to save your changes to GitHub:
+
+### Using VS Code (Recommended)
+
+VS Code has a built-in Source Control panel that makes it easy to stage, commit, and push your changes:
+
+1. **Open the Source Control panel**
+   - Click the Source Control icon in the left sidebar (it looks like a branch symbol)
+   - Or use the keyboard shortcut: `Ctrl+Shift+G` (Windows/Linux) or `Cmd+Shift+G` (Mac)
+
+2. **Review your changes**
+   - You'll see a list of files you've modified under "Changes"
+   - Click on a file to see what you changed (green = added, red = removed)
+
+3. **Stage your changes**
+   - Hover over "Changes" and click the `+` button to stage all files
+   - Or click the `+` button next to individual files to stage them one at a time
+
+4. **Commit your changes**
+   - Type a commit message in the text box at the top (e.g., "Completed Exercise 2 - CSS Box Model")
+   - Click the checkmark button (✓) above the message box or press `Ctrl+Enter` (Windows/Linux) or `Cmd+Enter` (Mac)
+
+5. **Push to GitHub**
+   - Click the "Sync Changes" button that appears, or
+   - Click the three dots menu (•••) and select "Push"
+
+### Using Command Line (Alternative)
+
+If you prefer using the terminal:
+
+```bash
+git add exercise2.html styles.css
+git commit -m "Completed Exercise 2 - CSS Box Model"
+git push
+```
+
+Your work is now saved and backed up on GitHub! You can continue to the next exercise.

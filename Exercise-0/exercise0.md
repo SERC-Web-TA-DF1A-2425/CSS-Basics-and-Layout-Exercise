@@ -310,3 +310,45 @@ These are the fundamental building blocks of HTML. In future exercises, you'll l
 - Use meaningful `alt` text for images (helps with accessibility)
 - Test your page in a browser frequently to see your changes
 - Remember: Block elements stack vertically, inline elements flow horizontally
+
+---
+
+## Saving Your Work
+
+After completing this exercise, make sure to save your changes to GitHub:
+
+### Using VS Code (Recommended)
+
+VS Code has a built-in Source Control panel that makes it easy to stage, commit, and push your changes:
+
+1. **Open the Source Control panel**
+   - Click the Source Control icon in the left sidebar (it looks like a branch symbol)
+   - Or use the keyboard shortcut: `Ctrl+Shift+G` (Windows/Linux) or `Cmd+Shift+G` (Mac)
+
+2. **Review your changes**
+   - You'll see a list of files you've modified under "Changes"
+   - Click on a file to see what you changed (green = added, red = removed)
+
+3. **Stage your changes**
+   - Hover over "Changes" and click the `+` button to stage all files
+   - Or click the `+` button next to individual files to stage them one at a time
+
+4. **Commit your changes**
+   - Type a commit message in the text box at the top (e.g., "Completed Exercise 0 - HTML Structure and Basic Elements")
+   - Click the checkmark button (✓) above the message box or press `Ctrl+Enter` (Windows/Linux) or `Cmd+Enter` (Mac)
+
+5. **Push to GitHub**
+   - Click the "Sync Changes" button that appears, or
+   - Click the three dots menu (•••) and select "Push"
+
+### Using Command Line (Alternative)
+
+If you prefer using the terminal:
+
+```bash
+git add exercise0.html
+git commit -m "Completed Exercise 0 - HTML Structure and Basic Elements"
+git push
+```
+
+Your work is now saved and backed up on GitHub! You can continue to the next exercise.
