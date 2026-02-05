@@ -346,7 +346,7 @@ Add this media query:
 Add this HTML inside the hero section (before the paragraph):
 
 ```html
-<img src="https://via.placeholder.com/800x400/667eea/ffffff?text=Responsive+Design" alt="Responsive Design Illustration" class="hero-image">
+<img src="https://placehold.co/800x400/667eea/ffffff?text=Responsive+Design" alt="Responsive Design Illustration" class="hero-image">
 ```
 
 Add this CSS:
