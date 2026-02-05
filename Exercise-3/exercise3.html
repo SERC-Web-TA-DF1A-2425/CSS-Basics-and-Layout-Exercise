@@ -5,129 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 3 - Float Layouts</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .exercise-links {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+        }
+        
+        .exercise-links h2 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .exercise-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .exercise-links li {
+            margin: 15px 0;
+        }
+        
+        .exercise-links a {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .exercise-links a:hover {
+            background-color: #2980b9;
+        }
+        
+        .exercise-links p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
     <h1>Exercise 3 - CSS Float Layouts</h1>
     <p>Follow the instructions in exercise3.md to complete this exercise.</p>
     
-    <hr style="margin: 30px 0;">
-
-    <!-- Part 1: Guided Steps -->
-    <section>
-        <h2>Part 1: Guided Steps</h2>
+    <div class="exercise-links">
+        <h2>Exercise Parts</h2>
+        <p>This exercise has been split into separate HTML files for easier navigation:</p>
         
-        <!-- Step 1: Basic Float Demo -->
-        <h3>Step 1: Basic Float Behavior</h3>
-        <div class="demo-container clearfix">
-            <!-- Add your float demo elements here -->
-        </div>
-
-        <hr style="margin: 20px 0;">
-
-        <!-- Step 2: Float Left and Right -->
-        <h3>Step 2: Float Left and Right</h3>
-        <div class="demo-container clearfix">
-            <!-- Add your multiple float elements here -->
-        </div>
-
-        <hr style="margin: 20px 0;">
-
-        <!-- Step 3 & 4: Container Collapse and Clearfix -->
-        <h3>Step 3 & 4: Container Collapse and Clearfix</h3>
-        <!-- Add your container demo here -->
-
-        <hr style="margin: 20px 0;">
-
-        <!-- Step 5: Two-Column Layout -->
-        <h3>Step 5: Two-Column Layout</h3>
-        <!-- Add your two-column layout here -->
-
-        <hr style="margin: 20px 0;">
-
-        <!-- Step 6: Three-Column Layout -->
-        <h3>Step 6: Three-Column Layout</h3>
-        <!-- Add your three-column layout here -->
-
-        <hr style="margin: 20px 0;">
-
-        <!-- Step 7: Image Wrapping -->
-        <h3>Step 7: Float for Image Wrapping</h3>
-        <!-- Add your article with floated image here -->
-
-    </section>
-
-    <hr style="margin: 40px 0; border: 2px solid #333;">
-
-    <!-- Part 2: Partially Independent Tasks -->
-    <section>
-        <h2>Part 2: Partially Independent Tasks</h2>
-        
-        <!-- Task 1: Blog Post Layout -->
-        <h3>Task 1: Blog Post Layout</h3>
-        <!-- Add your blog post layout here -->
-
-        <hr style="margin: 20px 0;">
-
-        <!-- Task 2: Navigation Bar -->
-        <h3>Task 2: Navigation Bar with Logo</h3>
-        <!-- Add your navigation bar here -->
-
-        <hr style="margin: 20px 0;">
-
-        <!-- Task 3: Product Grid -->
-        <h3>Task 3: Product Listing Grid</h3>
-        <!-- Add your product grid here -->
-
-        <hr style="margin: 20px 0;">
-
-        <!-- Task 4: Magazine Article -->
-        <h3>Task 4: Magazine-Style Article</h3>
-        <!-- Add your magazine article here -->
-
-    </section>
-
-    <hr style="margin: 40px 0; border: 3px solid #333;">
-
-    <!-- Part 3: Challenge - Photo Gallery Page -->
-    <section>
-        <h2>Part 3: Challenge - Photo Gallery Page</h2>
-        <p><strong>Create your complete photo gallery page below. You may want to create this in a separate HTML file for a cleaner result.</strong></p>
-        
-        <!-- 
-        Recommended structure:
-        
-        <div class="gallery-page">
-            <header class="gallery-header clearfix">
-                - Logo (floated left)
-                - Navigation (floated right)
-            </header>
-            
-            <div class="gallery-container clearfix">
-                <aside class="left-sidebar">
-                    - Categories
-                    - Recent galleries
-                </aside>
-                
-                <main class="main-gallery">
-                    - Gallery title
-                    - Photo grid
-                </main>
-                
-                <aside class="right-sidebar">
-                    - About
-                    - Contact
-                </aside>
-            </div>
-            
-            <footer class="gallery-footer">
-                - Copyright and links
-            </footer>
-        </div>
-        -->
-        
-        <!-- Add your photo gallery page here -->
-        
-    </section>
+        <ul>
+            <li>
+                <a href="part1.html">Part 1: Guided Steps</a>
+                <p>Learn the basics of CSS floats through 7 guided steps.</p>
+            </li>
+            <li>
+                <a href="part2.html">Part 2: Partially Independent Tasks</a>
+                <p>Apply your knowledge to 4 practical tasks with less guidance.</p>
+            </li>
+            <li>
+                <a href="challenge.html">Part 3: Challenge - Photo Gallery Page</a>
+                <p>Create a complete photo gallery page with a complex layout.</p>
+            </li>
+        </ul>
+    </div>
 
 </body>
 </html>
