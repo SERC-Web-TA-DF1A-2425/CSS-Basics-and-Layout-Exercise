@@ -14,7 +14,7 @@ This comprehensive exercise brings together everything you've learned in Exercis
 - The project simulates a real-world web development task
 
 **Skills You'll Use:**
-- HTML structure and semantic elements (Exercise 0)
+- HTML structure and basic elements (Exercise 0)
 - CSS selectors and styling properties (Exercise 1)
 - Box model, padding, margins, and borders (Exercise 2)
 - Float-based layouts (Exercise 3)
@@ -49,44 +49,44 @@ Before jumping into the independent work, let's set up the basic structure.
 
 1. Open `challenge.html` in your code editor
 2. The basic HTML skeleton is provided with a viewport meta tag
-3. Add the following semantic HTML structure inside the `<body>` element:
+3. Add the following HTML structure inside the `<body>` element:
 
 ```html
-<header id="main-header">
+<div id="main-header">
     <!-- Your navigation will go here -->
-</header>
+</div>
 
-<main>
-    <section id="hero">
+<div id="main-content">
+    <div id="hero">
         <!-- Hero/welcome section -->
-    </section>
+    </div>
 
-    <section id="about">
+    <div id="about">
         <!-- About section -->
-    </section>
+    </div>
 
-    <section id="skills">
+    <div id="skills">
         <!-- Skills section -->
-    </section>
+    </div>
 
-    <section id="projects">
+    <div id="projects">
         <!-- Projects gallery -->
-    </section>
+    </div>
 
-    <section id="contact">
+    <div id="contact">
         <!-- Contact form/info -->
-    </section>
-</main>
+    </div>
+</div>
 
-<footer id="main-footer">
+<div id="main-footer">
     <!-- Footer content -->
-</footer>
+</div>
 ```
 
 **Why this structure?**
-- Semantic HTML (`<header>`, `<main>`, `<section>`, `<footer>`) improves accessibility and SEO
+- Using `<div>` elements with descriptive IDs to organize content
 - IDs allow for navigation between sections
-- This structure is standard for modern single-page websites
+- This structure is common for single-page websites
 
 ### Step 2: CSS Setup
 
@@ -576,7 +576,7 @@ Your challenge is complete when:
 
 Before you consider this exercise complete, verify:
 
-- [ ] `challenge.html` contains all required sections with semantic HTML
+- [ ] `challenge.html` contains all required sections with proper HTML structure
 - [ ] `styles.css` contains all styling with organized, commented code
 - [ ] Website is fully responsive (tested at multiple screen sizes)
 - [ ] All links and interactive elements work
@@ -605,7 +605,7 @@ When you're done, you'll have built a complete portfolio website from scratch - 
 ## Resources
 
 If you need help, refer back to these exercises:
-- **Exercise 0**: HTML structure, semantic elements
+- **Exercise 0**: HTML structure, basic elements
 - **Exercise 1**: CSS selectors, colors, typography, borders, shadows
 - **Exercise 2**: Box model, padding, margins, spacing
 - **Exercise 3**: Float layouts (less needed here, but good reference)
