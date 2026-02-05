@@ -241,7 +241,7 @@ Now comes the real challenge! For each section below, you'll find requirements b
 
 **Requirements:**
 - Two-column layout (or stacked on mobile)
-  - Left side: Image/avatar (use a placeholder from https://via.placeholder.com/400x400)
+  - Left side: Image/avatar (use a placeholder from https://placehold.co/400x400)
   - Right side: Text content describing the developer
 - Contains:
   - Heading: "About Me"
