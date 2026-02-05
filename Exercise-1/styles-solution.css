@@ -140,10 +140,6 @@ li:nth-child(even) {
     list-style-type: none;
 }
 
-.nav-menu li {
-    /* Note: We're not adding display: inline-block here as that's layout */
-}
-
 .nav-menu a {
     text-transform: uppercase;
 }
