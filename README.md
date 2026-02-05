@@ -36,7 +36,7 @@ If you prefer to work on your local machine:
 
 ## Exercises
 
-### Exercise 0 - HTML Structure and Basic Elements
+### Exercise 0 - HTML Structure and Basic Elements (Optional: recap if needed)
 Introduction to HTML document structure and basic HTML elements. Learn about block vs inline elements, headings, paragraphs, lists, images, and more.
 
 ### Exercise 1 - CSS Basic Selectors
