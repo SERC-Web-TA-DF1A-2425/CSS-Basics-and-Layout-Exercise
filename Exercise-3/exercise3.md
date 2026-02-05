@@ -37,7 +37,7 @@ Let's start by understanding how float works with a simple example.
 **What you'll learn:** How floating an element affects the document flow
 
 **Instructions:**
-1. Open `exercise3.html` in your code editor
+1. Open `exercise3-part1.html` in your code editor
 2. Inside the first `<div class="demo-container">`, add the following CSS in the `<style>` section:
 
 ```css
@@ -696,7 +696,7 @@ VS Code has a built-in Source Control panel that makes it easy to stage, commit,
 If you prefer using the terminal:
 
 ```bash
-git add exercise3.html styles.css
+git add exercise3-part1.html exercise3-part2.html exercise3-challenge.html styles.css
 git commit -m "Completed Exercise 3 - CSS Float Layouts"
 git push
 ```
