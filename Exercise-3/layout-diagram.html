@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery Layout Diagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .diagram {
+            border: 3px solid #2c3e50;
+            margin: 20px 0;
+            background-color: #fff;
+        }
+
+        .header-section {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        .logo-box {
+            float: left;
+            background-color: #3498db;
+            padding: 15px 30px;
+            margin-right: 20px;
+        }
+
+        .nav-box {
+            float: right;
+            background-color: #3498db;
+            padding: 15px 30px;
+        }
+
+        .tagline {
+            clear: both;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #34495e;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .main-layout {
+            display: flex;
+            min-height: 400px;
+        }
+
+        .sidebar-left {
+            width: 20%;
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+        }
+
+        .main-content {
+            width: 55%;
+            background-color: #ecf0f1;
+            padding: 20px;
+            margin: 0 2.5%;
+        }
+
+        .sidebar-right {
+            width: 20%;
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+        }
+
+        .footer-section {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            clear: both;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .photo-item {
+            background-color: white;
+            border: 2px solid #95a5a6;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .photo-placeholder {
+            background-color: #bdc3c7;
+            height: 100px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .float-version {
+            margin-top: 40px;
+        }
+
+        .float-container {
+            overflow: hidden;
+        }
+
+        .float-left-sidebar {
+            float: left;
+            width: 20%;
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            margin-right: 2.5%;
+        }
+
+        .float-main-content {
+            float: left;
+            width: 52.5%;
+            background-color: #ecf0f1;
+            padding: 20px;
+            margin-right: 2.5%;
+            min-height: 400px;
+        }
+
+        .float-right-sidebar {
+            float: right;
+            width: 20%;
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .code-block {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        .note {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .measurements {
+            background-color: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Photo Gallery Layout Diagram</h1>
+        <p>This diagram shows the layout structure you need to create for the Exercise 3 challenge.</p>
+
+        <h2>Visual Layout Representation</h2>
+        
+        <div class="diagram">
+            <div class="header-section clearfix">
+                <div class="logo-box">LOGO</div>
+                <div class="nav-box">NAVIGATION</div>
+                <div class="tagline">Site tagline or description goes here</div>
+            </div>
+
+            <div class="main-layout">
+                <div class="sidebar-left">
+                    <strong>Left Sidebar</strong><br><br>
+                    Categories:<br>
+                    • Nature<br>
+                    • Urban<br>
+                    • Portrait<br><br>
+                    Recent Galleries:<br>
+                    • Gallery 1<br>
+                    • Gallery 2
+                </div>
+
+                <div class="main-content">
+                    <strong>Main Content Area</strong><br><br>
+                    Gallery Title<br>
+                    Description text<br><br>
+                    <div class="photo-grid">
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 1</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 2</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 3</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 4</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 5</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 6</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 7</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 8</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 9</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 10</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 11</div>
+                            Caption
+                        </div>
+                        <div class="photo-item">
+                            <div class="photo-placeholder">IMG 12</div>
+                            Caption
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-right">
+                    <strong>Right Sidebar</strong><br><br>
+                    About section<br><br>
+                    Contact info<br><br>
+                    Social media links
+                </div>
+            </div>
+
+            <div class="footer-section">
+                © 2024 Photo Gallery | Privacy | Terms | Contact
+            </div>
+        </div>
+
+        <div class="measurements">
+            <h3>Layout Measurements</h3>
+            <ul>
+                <li><strong>Left Sidebar:</strong> 20% width</li>
+                <li><strong>Gap after left sidebar:</strong> 2.5% (use margin-right)</li>
+                <li><strong>Main Content:</strong> 55% width</li>
+                <li><strong>Gap after main content:</strong> 2.5% (use margin-right)</li>
+                <li><strong>Right Sidebar:</strong> 20% width</li>
+                <li><strong>Total:</strong> 20% + 2.5% + 55% + 2.5% + 20% = 100%</li>
+            </ul>
+        </div>
+
+        <h2>Float-Based Implementation</h2>
+        
+        <div class="float-version">
+            <div class="diagram">
+                <div class="header-section clearfix">
+                    <div class="logo-box">LOGO (float: left)</div>
+                    <div class="nav-box">NAV (float: right)</div>
+                    <div class="tagline">Tagline text (clear: both)</div>
+                </div>
+
+                <div class="float-container clearfix">
+                    <div class="float-left-sidebar">
+                        <strong>Left Sidebar</strong><br>
+                        (float: left)<br>
+                        (width: 20%)<br>
+                        (margin-right: 2.5%)
+                    </div>
+
+                    <div class="float-main-content">
+                        <strong>Main Content</strong><br>
+                        (float: left)<br>
+                        (width: 52.5%)<br>
+                        (margin-right: 2.5%)<br><br>
+                        Photo cards inside also use float: left
+                    </div>
+
+                    <div class="float-right-sidebar">
+                        <strong>Right Sidebar</strong><br>
+                        (float: right)<br>
+                        (width: 20%)
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    Footer (clear: both)
+                </div>
+            </div>
+        </div>
+
+        <div class="note">
+            <strong>Important Notes:</strong>
+            <ul>
+                <li>All containers with floated children must have the <code>clearfix</code> class</li>
+                <li>The footer must clear floats to appear below all content</li>
+                <li>Use <code>box-sizing: border-box</code> to include padding in width calculations</li>
+                <li>Photo cards in the main content area should also use float: left</li>
+            </ul>
+        </div>
+
+        <h2>CSS Code Structure</h2>
+
+        <div class="code-block">
+/* Essential clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header with floated elements */
+.gallery-header {
+    /* styles */
+}
+
+.logo {
+    float: left;
+}
+
+.main-nav {
+    float: right;
+}
+
+/* Three-column layout */
+.gallery-container {
+    /* max-width, margin, etc. */
+}
+
+.left-sidebar {
+    float: left;
+    width: 20%;
+    margin-right: 2.5%;
+}
+
+.main-gallery {
+    float: left;
+    width: 52.5%;
+    margin-right: 2.5%;
+}
+
+.right-sidebar {
+    float: right;
+    width: 20%;
+}
+
+/* Photo grid items */
+.photo-card {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+.photo-card:nth-child(3n) {
+    margin-right: 0;  /* Remove margin on every 3rd item */
+}
+
+/* Footer */
+.gallery-footer {
+    clear: both;  /* Essential! */
+}
+        </div>
+
+        <div class="measurements">
+            <h3>Photo Grid Calculations</h3>
+            <p>For 3 columns of photo cards:</p>
+            <ul>
+                <li>Each card: 30% width</li>
+                <li>Gap between cards: 3% (use margin-right)</li>
+                <li>Calculation: 30% + 3% + 30% + 3% + 30% = 96% (4% margin of error is fine)</li>
+                <li>Every 3rd card: Remove right margin using <code>:nth-child(3n)</code></li>
+                <li>Container must have clearfix to contain all floated cards</li>
+            </ul>
+        </div>
+
+        <h2>Using Lorem Picsum for Images</h2>
+        
+        <div class="code-block">
+&lt;!-- Logo --&gt;
+&lt;img src="https://picsum.photos/100/50?random=99" alt="Logo"&gt;
+
+&lt;!-- Gallery photos (change the number for different images) --&gt;
+&lt;img src="https://picsum.photos/300/200?random=1" alt="Photo 1"&gt;
+&lt;img src="https://picsum.photos/300/200?random=2" alt="Photo 2"&gt;
+&lt;img src="https://picsum.photos/300/200?random=3" alt="Photo 3"&gt;
+&lt;!-- ... and so on up to random=12 --&gt;
+        </div>
+
+        <h2>HTML Structure Outline</h2>
+        
+        <div class="code-block">
+&lt;body&gt;
+    &lt;header class="gallery-header clearfix"&gt;
+        &lt;div class="logo"&gt;...&lt;/div&gt;
+        &lt;nav class="main-nav"&gt;...&lt;/nav&gt;
+        &lt;div class="tagline"&gt;...&lt;/div&gt;
+    &lt;/header&gt;
+
+    &lt;div class="gallery-container clearfix"&gt;
+        &lt;aside class="left-sidebar"&gt;...&lt;/aside&gt;
+        
+        &lt;main class="main-gallery"&gt;
+            &lt;div class="photo-grid clearfix"&gt;
+                &lt;div class="photo-card"&gt;...&lt;/div&gt;
+                &lt;!-- Repeat 12 times --&gt;
+            &lt;/div&gt;
+        &lt;/main&gt;
+        
+        &lt;aside class="right-sidebar"&gt;...&lt;/aside&gt;
+    &lt;/div&gt;
+
+    &lt;footer class="gallery-footer"&gt;...&lt;/footer&gt;
+&lt;/body&gt;
+        </div>
+
+        <div class="note">
+            <strong>Pro Tip:</strong> Build your layout incrementally!
+            <ol>
+                <li>Start with the header - get logo and nav floating correctly</li>
+                <li>Add the three-column layout - test with placeholder content</li>
+                <li>Build the photo grid - start with just 3 cards to test alignment</li>
+                <li>Add the footer - make sure it clears properly</li>
+                <li>Fill in all content and refine styling</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
